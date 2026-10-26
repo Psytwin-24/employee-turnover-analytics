@@ -1,0 +1,77 @@
+{
+ "results": {
+  "attrition_rate": 0.1612,
+  "rf_cv_auc_mean": 0.7852,
+  "rf_cv_auc_std": 0.024,
+  "lr_cv_auc_mean": 0.8256,
+  "rf_holdout_auc": 0.7618,
+  "lr_holdout_auc": 0.808,
+  "rf_pr_auc": 0.3952,
+  "flag_rate_at_0_42": 0.3859,
+  "precision_at_thr": 0.317,
+  "recall_at_thr": 0.763
+ },
+ "table": {
+  "title": "Highest-importance drivers",
+  "headers": [
+   "feature",
+   "importance"
+  ],
+  "rows": [
+   [
+    "MonthlyIncome",
+    0.0942
+   ],
+   [
+    "YearsAtCompany",
+    0.094
+   ],
+   [
+    "OverTime_Yes",
+    0.0923
+   ],
+   [
+    "Age",
+    0.0778
+   ],
+   [
+    "YearsWithCurrManager",
+    0.0776
+   ],
+   [
+    "TotalWorkingYears",
+    0.0759
+   ],
+   [
+    "StockOptionLevel",
+    0.068
+   ],
+   [
+    "YearsInCurrentRole",
+    0.0404
+   ],
+   [
+    "JobLevel",
+    0.0375
+   ],
+   [
+    "MaritalStatus_Single",
+    0.0316
+   ],
+   [
+    "DailyRate",
+    0.0282
+   ],
+   [
+    "DistanceFromHome",
+    0.0249
+   ]
+  ]
+ },
+ "figures": [
+  [
+   "turnover.png",
+   "Driver ranking and the overtime effect"
+  ]
+ ]
+}
